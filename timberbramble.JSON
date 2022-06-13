@@ -1,0 +1,108 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "TIMBER_HEARTH",
+	"childrenToDestroy": [
+		"Atmosphere_TH/FogSphere"
+	],
+	"Atmosphere": {
+		"size": 310,
+		"cloudTint": {
+			"r": 200,
+			"g": 170,
+			"b": 130,
+			"a": 100
+		},
+		"cloud": "planets/assets/Pariah-Cloud.png",
+		"cloudCap": "planets/assets/Pariah-Cap.png",
+		"fogTint": {
+			"r": 219,
+			"g": 212,
+			"b": 186,
+			"a": 100
+		},
+		"fogDensity": 3,
+		"fogSize": 308
+	},
+	"Props": {
+		"Dialogue": [
+			{
+				"xmlFile": "planets/dialogue/slate.xml",
+				"radius": 0.5,
+				"position": {
+					"x": 17.41209,
+					"y": -41.31531,
+					"z": 187.077
+				},
+				"remoteTriggerPosition": {
+					"x": 9.71385,
+					"y": -42.34344,
+					"z": 186.3143
+				},
+				"pathToAnimController": "Sector_TH/Sector_Village/Sector_StartingCamp/Characters_StartingCamp/Villager_HEA_Slate/Villager_HEA_Slate_ANIM_LogSit",
+				"lookAtRadius": 8
+			}
+		],
+		"Details": [
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_DB/Interactables_DBState/DBState_QuantumObjects/IceShard_3/State_1/Vines_Ice_Geo",
+				"position": {
+					"x": 38,
+					"y": -87,
+					"z": 190
+				},
+				"alignToNormal": false,
+				"scale": 0.5,
+				"rotation": {
+					"x": 348,
+					"y": 15,
+					"z": 129
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_DB/Interactables_DBState/DBState_QuantumObjects/IceShard_Arrangment_2/DB_IceShard_Arrangment_2/IceGeo",
+				"position": {
+					"x": 4.4707,
+					"y": -51.5492,
+					"z": 182.2054
+				},
+				"alignToNormal": false,
+				"scale": 0.7,
+				"rotation": {
+					"x": 283.9055,
+					"y": 17.6491,
+					"z": 0
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_DB/Interactables_DBState/DBState_QuantumObjects/DB_Q_Vine2/DB_Bramble_Vine2 (1)/State_1/Terrain_TH_Bramble_Vine2",
+				"position": {
+					"x": 46.5437,
+					"y": -63.4511,
+					"z": 207.9457
+				},
+				"alignToNormal": false,
+				"scale": 0.9,
+				"rotation": {
+					"x": 292.6312,
+					"y": 55.9272,
+					"z": 1.9111
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_DB/Interactables_DBState/DBState_QuantumObjects/DB_Q_Vine2/DB_Bramble_Vine2 (10)/State_1/Terrain_TH_Bramble_Vine2",
+				"position": {
+					"x": 27.7801,
+					"y": -30.3472,
+					"z": 196.9754
+				},
+				"alignToNormal": false,
+				"scale": 0.6,
+				"rotation": {
+					"x": 280,
+					"y": 271.4277,
+					"z": 180
+				}
+			}
+		]
+	}
+}
