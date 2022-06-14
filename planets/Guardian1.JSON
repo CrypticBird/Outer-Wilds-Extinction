@@ -1,0 +1,38 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Guardian 1",
+	"starSystem": "Cryptic&Turtle.[ERROR_UnchartedCoordinates]:/CAUTION/",
+	"Base": {
+		"groundSize" : 100,
+		"surfaceSize" : 100,
+		"surfaceGravity": 1,
+		"hasMapMarker": false,
+		"hasAmbientLight": false
+	},
+	"Orbit": {
+		"primaryBody": "Inferno",
+		"semiMajorAxis": 3500,
+		"isMoon": true,
+		"longitudeOfAscendingNode": 0,
+		"argumentOfPeriapsis": 0,
+		"inclination": 0,
+		"isTidallyLocked": true,
+		"tint": {
+			"r": 192,
+			"g": 187,
+			"b": 201,
+			"a": 100
+		},
+		"dottedOrbitLine": true
+	},
+	"Funnel": {
+		"target": "Inferno",
+		"tint":{
+			"r": 0,
+			"g": 66,
+			"b": 32,
+			"a": 100
+		},
+		"type": "star"
+	}
+}

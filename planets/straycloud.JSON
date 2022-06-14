@@ -6,7 +6,8 @@
 		"surfaceSize": 5,
 		"hasMapMarker": true,
 		"ambientLight": 0,
-		"groundSize": 0
+		"groundSize": 0,
+		"zeroGravityRadius": 20
 	},
 	"Orbit": {
 		"primaryBody": "SUN",
@@ -17,7 +18,7 @@
 		"axialTilt": 70,
 		"inclination": 50,
 		"siderealPeriod": 2,
-		"showOrbitLine": true
+		"trackingOrbitLine": true
 	},
 	"Atmosphere": {
 		"size": 70,
@@ -61,6 +62,17 @@
 				"scale" : 0.5,
 				"alignToNormal": false,
 				"removeChildren": ["DB_SeedLightShafts"]
+			},
+			{
+				"assetBundle": "planets/assets/crypticturtle.extiction",
+				"path": "Assets/DLC/Pollen_Cloud.prefab",
+				"position": {
+					"x": 10,
+					"y": 10,
+					"z": 5
+				},
+				"scale" : 0.7,
+				"alignToNormal": false
 			},
 			{
 				"path": "BrittleHollow_Body/Sector_BH/Sector_EscapePodCrashSite/Sector_NorthFragment/Interactables_NorthFragment/VisibleFrom_EscapePodCrashSite/Prefab_NOM_Lamp_EscapePodFlare",
