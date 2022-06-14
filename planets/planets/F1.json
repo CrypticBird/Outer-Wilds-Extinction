@@ -1,0 +1,28 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "F1",
+	"starSystem": "Cryptic&Turtle.[ERROR_UnchartedCoordinates]:/CAUTION/",
+	"Spawn": {
+		"playerSpawnPoint": {
+			"x": 1305.65454,
+			"y": -1627.4736,
+			"z": -7183.9742
+		},
+		"shipSpawnPoint": {
+			"x": 1309.18244,
+			"y": -1615.5915,
+			"z": -7196.174
+		},
+		"startWithSuit": true
+	},
+	"Base": {
+		"surfaceGravity": 1,
+		"surfaceSize": 100,
+		"hasMapMarker": false,
+		"gravityFallOff": "linear",
+		"centerOfSolarSystem": true
+	},
+	"Orbit": {
+		"isStatic": true
+	}
+}

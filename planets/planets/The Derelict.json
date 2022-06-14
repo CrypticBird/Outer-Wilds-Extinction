@@ -1,0 +1,28 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "The Derelict",
+	"starSystem": "Cryptic&Turtle.[ERROR_UnchartedCoordinates]:/CAUTION/",
+	"Base": {
+		"groundSize": 500,
+		"surfaceGravity": 20,
+		"surfaceSize": 600,
+		"hasMapMarker": true,
+		"gravityFallOff": "inverseSquared"
+	},
+	"Orbit": {
+		"primaryBody": "F2",
+		"semiMajorAxis": 2000,
+		"isMoon": false,
+		"trueAnomaly": 180
+	},
+	"Atmosphere": {
+		"size": 600,
+		"fogTint": {
+			"r": 130,
+			"g": 221,
+			"b": 218
+		},
+		"fogDensity": 0.4,
+		"fogSize": 100
+	}
+}
