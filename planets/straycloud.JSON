@@ -27,13 +27,23 @@
 			"b": 31,
 			"a": 100
 		},
-		"fogDensity": 1,
+		"fogDensity": 0.3,
 		"fogSize": 70
 	},
 	"Props": {
 		"details": [
 			{
 				"path": "TimberHearth_Body/Sector_TH/Sector_ImpactCrater/Interactables_ImpactCrater/ControlledByProxy_Structures/Terrain_DB_BrambleSphere_Seed_V2",
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"alignToNormal": false
+			},
+			{
+				"assetBundle": "planets/assets/crypticturtle.extiction",
+				"path": "Assets/DLC/Pollen_Cloud.prefab",
 				"position": {
 					"x": 0,
 					"y": 0,
