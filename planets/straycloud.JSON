@@ -1,0 +1,100 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Stray Cloud",
+	"Base": {
+		"surfaceGravity": 0,
+		"surfaceSize": 5,
+		"hasMapMarker": true,
+		"ambientLight": 0,
+		"groundSize": 0
+	},
+	"Orbit": {
+		"primaryBody": "SUN",
+		"semiMajorAxis": 30000,
+		"longitudeOfAscendingNode": 90,
+		"eccentricity": 0.3,
+		"argumentOfPeriapsis": 0,
+		"axialTilt": 70,
+		"inclination": 50,
+		"siderealPeriod": 2,
+		"showOrbitLine": true
+	},
+	"Atmosphere": {
+		"size": 70,
+		"fogTint": {
+			"r": 193,
+			"g": 187,
+			"b": 31,
+			"a": 100
+		},
+		"fogDensity": 1,
+		"fogSize": 70
+	},
+	"Props": {
+		"details": [
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_ImpactCrater/Interactables_ImpactCrater/ControlledByProxy_Structures/Terrain_DB_BrambleSphere_Seed_V2",
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"alignToNormal": false
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_ImpactCrater/Interactables_ImpactCrater/ControlledByProxy_Structures/Terrain_DB_BrambleSphere_Seed_V2",
+				"position": {
+					"x": 10,
+					"y": 10,
+					"z": 5
+				},
+				"scale" : 0.5,
+				"alignToNormal": false,
+				"removeChildren": ["DB_SeedLightShafts"]
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_EscapePodCrashSite/Sector_NorthFragment/Interactables_NorthFragment/VisibleFrom_EscapePodCrashSite/Prefab_NOM_Lamp_EscapePodFlare",
+				"position": {   
+					"x": 5.2509, 
+					"y": 10.3109,
+					"z": -0.9364
+				},
+				"rotation": { 
+					"x": 45.2123,
+					"y": 6.5181 ,
+					"z": 344.6334
+				},
+				"alignToNormal": false 
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_EscapePodCrashSite/Sector_NorthFragment/Interactables_NorthFragment/VisibleFrom_EscapePodCrashSite/Prefab_NOM_Lamp_EscapePodFlare",
+				"position": { 
+					"x": -6.2774,
+					"y": 10,
+					"z": 1.4
+				},
+				"rotation": { 
+					"x": 300,
+					"y": 15,
+					"z": 129
+				},
+				"alignToNormal": false
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_EscapePodCrashSite/Sector_CrashFragment/Interactables_CrashFragment/Prefab_NOM_Recorder/Props_NOM_Recorder",
+				"position": {  
+					"x": 1.3891,
+					"y": 13.1945,
+					"z": 1.8036
+				},
+				"rotation": {   
+					"x": 35.0225,
+					"y": 9.8345,
+					"z": 18.0528
+				},
+				"alignToNormal": false
+			}
+		],
+		"nomaiText": []
+		}
+	}

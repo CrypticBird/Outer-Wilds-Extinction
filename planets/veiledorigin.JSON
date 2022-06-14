@@ -1,0 +1,45 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Veiled Origin",
+	"starSystem": "Cryptic&Turtle.[ERROR_UnchartedCoordinates]:/CAUTION/",
+	"Base": {
+		"surfaceGravity": 10,
+		"surfaceSize": 210,
+		"hasMapMarker": true,
+		"hasAmbientLight": false
+	},
+	"Orbit": {
+		"primaryBody": "F2",
+		"semiMajorAxis": 8000,
+		"isMoon": false,
+		"longitudeOfAscendingNode": 0,
+		"argumentOfPeriapsis": 0,
+		"inclination": 0,
+		"siderealPeriod": 8,
+		"tint": {
+			"r": 207,
+			"g": 158,
+			"b": 0,
+			"a": 100
+		}
+	},
+	"Atmosphere": {
+		"size": 1000,
+		"cloudTint": {
+			"r": 200,
+			"g": 170,
+			"b": 130,
+			"a": 100
+		},
+		"cloud": "planets/assets/OrginClouds.png",
+		"cloudCap": "planets/assets/Pariah-Cap.png",
+		"fogTint": {
+			"r": 219,
+			"g": 212,
+			"b": 186,
+			"a": 100
+		},
+		"fogDensity": 3,
+		"fogSize": 300
+	}
+}
