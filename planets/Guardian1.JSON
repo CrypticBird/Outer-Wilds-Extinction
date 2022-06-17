@@ -4,7 +4,7 @@
 	"starSystem": "Cryptic&Turtle.[ERROR_UnchartedCoordinates]:/CAUTION/",
 	"Base": {
 		"groundSize" : 100,
-		"surfaceSize" : 100,
+		"surfaceSize" : 1,
 		"surfaceGravity": 1,
 		"hasMapMarker": false,
 		"hasAmbientLight": false
