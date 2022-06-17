@@ -39,7 +39,7 @@
 			"b": 130,
 			"a": 100
 		},
-		"cloud": "planets/assets/OrginClouds.png",
+		"cloud": "planets/assets/Dwarf.png",
 		"cloudCap": "planets/assets/Pariah-Cap.png",
 		"fogTint": {
 			"r": 219,
