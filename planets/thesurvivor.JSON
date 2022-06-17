@@ -3,40 +3,67 @@
 	"name": "The Survivor",
 	"starSystem": "Cryptic&Turtle.[ERROR_UnchartedCoordinates]:/CAUTION/",
 	"Base": {
-		"groundSize" : 30,
-		"surfaceSize" : 110,
-		"surfaceGravity": 10,
+		"surfaceSize" : 310,
+		"surfaceGravity": 12,
 		"hasMapMarker": true,
-		"hasAmbientLight": true
+		"ambientLight": 1
 	},
 	"Orbit": {
 		"primaryBody": "Veiled Origin",
-		"semiMajorAxis": 3200,
+		"semiMajorAxis": 2400,
 		"isMoon": true,
 		"longitudeOfAscendingNode": 0,
 		"argumentOfPeriapsis": 0,
 		"inclination": 0,
-		"siderealPeriod": 8,
+		"siderealPeriod": 2,
 		"tint": {
 			"r": 64,
 			"g": 227,
 			"b": 181,
 			"a": 100
-		}
+		},
+		"isTidallyLocked": false,
+		"axialTilt": 0
 	},
 	"Atmosphere": {
-		"size": 350,
+		"size": 500,
 		"cloudTint": {
 			"r": 200,
 			"g": 170,
 			"b": 130,
 			"a": 100
 		},
-		"fogDensity": 3,
+		"fogDensity": 1,
 		"fogSize": 0,
 		"useAtmosphereShader": true
 	},
-	"Water": {
-		"size": 208
+		"Props": {
+		"details": [
+			{
+				"assetBundle": "planets/assets/crypticturtle.extiction",
+				"path": "Assets/DLC/TheSurvivorMesh.prefab",
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"rotation": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"scale": 230,
+				"alignToNormal": false
+			}
+		]
+		},
+		"Water": {
+			"size": 208,
+			"tint": {
+				"r": 69,
+				"g": 191,
+				"b": 224,
+				"a": 100
+			}
 		}
 }

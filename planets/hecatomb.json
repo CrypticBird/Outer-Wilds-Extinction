@@ -3,7 +3,7 @@
 	"name": "Hecatome",
 	"starSystem": "Cryptic&Turtle.[ERROR_UnchartedCoordinates]:/CAUTION/",
 	"Base": {
-		"surfaceGravity": 65,
+		"surfaceGravity": 45,
 		"surfaceSize": 1600,
 		"hasMapMarker": true,
 		"gravityFallOff": "inverseSquared"

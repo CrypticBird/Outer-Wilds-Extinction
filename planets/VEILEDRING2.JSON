@@ -1,68 +1,42 @@
 {
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
-	"name": "Veiled Origin",
+	"name": "Ring 2",
 	"starSystem": "Cryptic&Turtle.[ERROR_UnchartedCoordinates]:/CAUTION/",
 	"Base": {
-		"surfaceGravity": 10,
-		"groundSize": 70,
-		"surfaceSize": 1000,
-		"hasMapMarker": true,
+		"surfaceGravity": 1,
+		"surfaceSize": 1,
+		"hasMapMarker": false,
 		"hasAmbientLight": false
 	},
 	"Orbit": {
-		"primaryBody": "F2",
-		"semiMajorAxis": 8000,
+		"primaryBody": "Veiled Origin",
+		"semiMajorAxis": 0.1,
 		"isMoon": false,
 		"longitudeOfAscendingNode": 0,
 		"argumentOfPeriapsis": 0,
 		"inclination": 0,
-		"tint": {
-			"r": 207,
-			"g": 158,
-			"b": 0,
-			"a": 100
-		}
+		"showOrbitLine": false
 	},
 	"Ring": {
 		"fluidType": "sand",
-		"inclination": 20,
-		"innerRadius": 1325,
-		"outerRadius": 1400,
+		"inclination": -20,
+		"innerRadius": 1725,
+		"outerRadius": 1800,
 		"rotationSpeed": 1,
 		"texture": "planets/assets/Ring.png"
-	},
-	"Atmosphere": {
-		"size": 1000,
-		"cloudTint": {
-			"r": 200,
-			"g": 170,
-			"b": 130,
-			"a": 100
-		},
-		"cloud": "planets/assets/OrginClouds.png",
-		"cloudCap": "planets/assets/Pariah-Cap.png",
-		"fogTint": {
-			"r": 219,
-			"g": 212,
-			"b": 186,
-			"a": 100
-		},
-		"fogDensity": 3,
-		"fogSize": 300,
-		"useAtmosphereShader": true
 	},
 	"Props": {
 		"details": [
 			{
 				"assetBundle": "planets/assets/crypticturtle.extiction",
-				"path": "Assets/DLC/Pollen_Ring.prefab",
+				"path": "Assets/DLC/Pollen_Ring2.prefab",
 				"position": {
 					"x": 0,
 					"y": 0,
 					"z": 0
 				},
 				"rotation": {
-					"x": 70,
+					"x": -70,
 					"y": 0,
 					"z": 0
 				},
