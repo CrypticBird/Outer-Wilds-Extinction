@@ -3,7 +3,7 @@
 	"name": "F2",
 	"starSystem": "Cryptic&Turtle.[ERROR_UnchartedCoordinates]:/CAUTION/",
 	"Base": {
-		"surfaceGravity": 1,
+		"surfaceGravity": 100,
 		"surfaceSize": 100,
 		"hasMapMarker": false,
 		"gravityFallOff": "linear"
@@ -12,5 +12,11 @@
 		"primaryBody": "F1",
 		"semiMajorAxis": 12000,
 		"isMoon": false
+	},
+	"ShipLog": {
+		"mapMode": {
+			"invisibleWhenHidden": true
+		}
 	}
+	
 }

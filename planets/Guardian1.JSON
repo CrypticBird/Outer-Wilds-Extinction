@@ -34,5 +34,10 @@
 			"a": 100
 		},
 		"type": "star"
+	},
+	"ShipLog": {
+		"mapMode": {
+			"invisibleWhenHidden": true
+		}
 	}
 }

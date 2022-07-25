@@ -37,5 +37,19 @@
 			"b": 218
 		},
 		"solarLuminosity": 1.0
+	},		
+	"ShipLog": {
+		"mapMode": {
+			"manualNavigationPosition": {
+				"x": 0,
+				"y": 1
+			  },
+			  "manualPosition": {
+				"x": 0,
+				"y": 200
+			  },
+			  "scale": 4
+
+		}
 	}
 }

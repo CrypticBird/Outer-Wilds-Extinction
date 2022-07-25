@@ -4,7 +4,7 @@
 	"starSystem": "Cryptic&Turtle.[ERROR_UnchartedCoordinates]:/CAUTION/",
 	"Base": {
 		"surfaceSize" : 1000,
-		"surfaceGravity": 15,
+		"surfaceGravity": 23,
 		"hasMapMarker": true,
 		"ambientLight": 1
 	},
@@ -43,5 +43,33 @@
 			"b": 53,
 			"a": 100
 		}
-	}
+	},
+	"Props": {
+		"details": [
+			{
+				"path": "Sun_Body/Sector_SUN/Volumes_SUN/HeatVolume",
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"scale": 0.36373,
+				"alignToNormal": false
+			}
+		]
+		},		
+		"ShipLog": {
+			"mapMode": {
+				"manualNavigationPosition": {
+					"x": 1,
+					"y": 6
+				  },
+				  "manualPosition": {
+					"x": 500,
+					"y": 1100
+				  },
+				  "scale": 2.5
+	
+			}
+		}
 }

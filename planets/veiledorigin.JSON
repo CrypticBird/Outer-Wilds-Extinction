@@ -7,8 +7,9 @@
 		"groundSize": 70,
 		"surfaceSize": 1000,
 		"hasMapMarker": true,
-		"hasAmbientLight": false
+		"ambientLight": 1.2
 	},
+	"canShowOnTitle": false,
 	"Orbit": {
 		"primaryBody": "F2",
 		"semiMajorAxis": 8000,
@@ -67,7 +68,48 @@
 					"z": 0
 				},
 				"alignToNormal": false
+			},
+			{
+				"path": "ring2_body/Sector",
+				"rotation": {
+					"x": 70,
+					"y": 0,
+					"z": 0
+				},
+				"alignToNormal": false
 			}
 		]
+		},
+		"Water": {
+			"size": 600,
+			"tint": {
+				"r": 119,
+				"g": 209,
+				"b": 50,
+				"a": 100
+			}
+		},
+		"Lava": {
+			"size": 570,
+			"tint": {
+				"r": 0,
+				"g": 255,
+				"b": 42,
+				"a": 100
+			}
+		},		
+		"ShipLog": {
+			"mapMode": {
+				"manualNavigationPosition": {
+					"x": 1,
+					"y": 2
+				  },
+				  "manualPosition": {
+					"x": 450,
+					"y": 375
+				  },
+				  "scale": 3
+	
+			}
 		}
 }

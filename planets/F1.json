@@ -16,7 +16,7 @@
 		"startWithSuit": true
 	},
 	"Base": {
-		"surfaceGravity": 1,
+		"surfaceGravity": 100,
 		"surfaceSize": 100,
 		"hasMapMarker": false,
 		"gravityFallOff": "linear",
@@ -24,5 +24,10 @@
 	},
 	"Orbit": {
 		"isStatic": true
+	},
+	"ShipLog": {
+		"mapMode": {
+			"invisibleWhenHidden": true
+		}
 	}
 }

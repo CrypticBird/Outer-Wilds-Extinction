@@ -65,5 +65,19 @@
 				"b": 224,
 				"a": 100
 			}
+		},		
+		"ShipLog": {
+			"mapMode": {
+				"manualNavigationPosition": {
+					"x": 1,
+					"y": 1
+				  },
+				  "manualPosition": {
+					"x": 450,
+					"y": 200
+				  },
+				  "scale": 1
+	
+			}
 		}
 }

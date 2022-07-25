@@ -9,6 +9,7 @@
 		"hasMapMarker": true,
 		"hasAmbientLight": true
 	},
+	"canShowOnTitle": false,
 	"Orbit": {
 		"primaryBody": "F1",
 		"semiMajorAxis": 36000,
@@ -42,5 +43,19 @@
 		},
 		"fogDensity": 3,
 		"fogSize": 300
+	},		
+	"ShipLog": {
+		"mapMode": {
+			"manualNavigationPosition": {
+				"x": 3,
+				"y": 6
+			  },
+			  "manualPosition": {
+				"x": 1000,
+				"y": 700
+			  },
+			  "scale": 3
+
+		}
 	}
 }

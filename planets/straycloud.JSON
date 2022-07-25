@@ -1,122 +1,116 @@
 {
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
-	"name": "Stray Cloud",
-	"Base": {
-		"surfaceGravity": 0,
-		"surfaceSize": 5,
-		"hasMapMarker": true,
-		"ambientLight": 0,
-		"groundSize": 0,
-		"zeroGravityRadius": 20
-	},
-	"Orbit": {
-		"primaryBody": "SUN",
-		"semiMajorAxis": 30000,
-		"longitudeOfAscendingNode": 90,
-		"eccentricity": 0.3,
-		"argumentOfPeriapsis": 0,
-		"axialTilt": 70,
-		"inclination": 50,
-		"siderealPeriod": 2,
-		"trackingOrbitLine": true
-	},
-	"Atmosphere": {
-		"size": 70,
-		"fogTint": {
-			"r": 193,
-			"g": 187,
-			"b": 31,
-			"a": 100
-		},
-		"fogDensity": 0.3,
-		"fogSize": 70
-	},
-	"Props": {
-		"details": [
-			{
-				"path": "TimberHearth_Body/Sector_TH/Sector_ImpactCrater/Interactables_ImpactCrater/ControlledByProxy_Structures/Terrain_DB_BrambleSphere_Seed_V2",
-				"position": {
-					"x": 0,
-					"y": 0,
-					"z": 0
-				},
-				"alignToNormal": false
-			},
-			{
-				"assetBundle": "planets/assets/crypticturtle.extiction",
-				"path": "Assets/DLC/Pollen_Cloud.prefab",
-				"position": {
-					"x": 0,
-					"y": 0,
-					"z": 0
-				},
-				"alignToNormal": false
-			},
-			{
-				"path": "TimberHearth_Body/Sector_TH/Sector_ImpactCrater/Interactables_ImpactCrater/ControlledByProxy_Structures/Terrain_DB_BrambleSphere_Seed_V2",
-				"position": {
-					"x": 10,
-					"y": 10,
-					"z": 5
-				},
-				"scale" : 0.5,
-				"alignToNormal": false,
-				"removeChildren": ["DB_SeedLightShafts"]
-			},
-			{
-				"assetBundle": "planets/assets/crypticturtle.extiction",
-				"path": "Assets/DLC/Pollen_Cloud.prefab",
-				"position": {
-					"x": 10,
-					"y": 10,
-					"z": 5
-				},
-				"scale" : 0.7,
-				"alignToNormal": false
-			},
-			{
-				"path": "BrittleHollow_Body/Sector_BH/Sector_EscapePodCrashSite/Sector_NorthFragment/Interactables_NorthFragment/VisibleFrom_EscapePodCrashSite/Prefab_NOM_Lamp_EscapePodFlare",
-				"position": {   
-					"x": 5.2509, 
-					"y": 10.3109,
-					"z": -0.9364
-				},
-				"rotation": { 
-					"x": 45.2123,
-					"y": 6.5181 ,
-					"z": 344.6334
-				},
-				"alignToNormal": false 
-			},
-			{
-				"path": "BrittleHollow_Body/Sector_BH/Sector_EscapePodCrashSite/Sector_NorthFragment/Interactables_NorthFragment/VisibleFrom_EscapePodCrashSite/Prefab_NOM_Lamp_EscapePodFlare",
-				"position": { 
-					"x": -6.2774,
-					"y": 10,
-					"z": 1.4
-				},
-				"rotation": { 
-					"x": 300,
-					"y": 15,
-					"z": 129
-				},
-				"alignToNormal": false
-			},
-			{
-				"path": "BrittleHollow_Body/Sector_BH/Sector_EscapePodCrashSite/Sector_CrashFragment/Interactables_CrashFragment/Prefab_NOM_Recorder/Props_NOM_Recorder",
-				"position": {  
-					"x": 1.3891,
-					"y": 13.1945,
-					"z": 1.8036
-				},
-				"rotation": {   
-					"x": 35.0225,
-					"y": 9.8345,
-					"z": 18.0528
-				},
-				"alignToNormal": false
-			}
-		],
-		"nomaiText": []
-		}
-	}
+  "Atmosphere": {
+    "fogDensity": 0.3,
+    "fogSize": 70.0,
+    "fogTint": {
+      "r": 193,
+      "g": 187,
+      "b": 31,
+      "a": 100
+    },
+    "size": 70.0
+  },
+  "Base": {
+    "hasMapMarker": true,
+    "surfaceSize": 5.0,
+    "zeroGravityRadius": 20.0
+  },
+  "canShowOnTitle": true,
+  "name": "Stray Cloud",
+  "Orbit": {
+    "primaryBody": "SUN",
+    "axialTilt": 70.0,
+    "siderealPeriod": 2.0,
+    "trackingOrbitLine": true,
+    "semiMajorAxis": 30000.0,
+    "inclination": 50.0,
+    "longitudeOfAscendingNode": 90.0,
+    "eccentricity": 0.3
+  },
+  "Props": {
+    "details": [
+      {
+        "path": "TimberHearth_Body/Sector_TH/Sector_ImpactCrater/Interactables_ImpactCrater/ControlledByProxy_Structures/Terrain_DB_BrambleSphere_Seed_V2",
+        "position": {},
+        "rotation": {}
+      },
+      {
+        "assetBundle": "planets/assets/crypticturtle.extiction",
+        "path": "Assets/DLC/Pollen_Cloud.prefab",
+        "position": {},
+        "rotation": {}
+      },
+      {
+        "path": "TimberHearth_Body/Sector_TH/Sector_ImpactCrater/Interactables_ImpactCrater/ControlledByProxy_Structures/Terrain_DB_BrambleSphere_Seed_V2",
+        "position": {
+          "x": 10.0006266,
+          "y": 9.99886,
+          "z": 4.999769
+        },
+        "removeChildren": [
+          "DB_SeedLightShafts"
+        ],
+        "rotation": {},
+        "scale": 0.5
+      },
+      {
+        "assetBundle": "planets/assets/crypticturtle.extiction",
+        "path": "Assets/DLC/Pollen_Cloud.prefab",
+        "position": {
+          "x": 10.0006266,
+          "y": 9.99886,
+          "z": 4.999769
+        },
+        "rotation": {},
+        "scale": 0.7
+      },
+      {
+        "path": "BrittleHollow_Body/Sector_BH/Sector_EscapePodCrashSite/Sector_NorthFragment/Interactables_NorthFragment/VisibleFrom_EscapePodCrashSite/Prefab_NOM_Lamp_EscapePodFlare",
+        "position": {
+          "x": 5.25158548,
+          "y": 10.3102665,
+          "z": -0.9352884
+        },
+        "rotation": {
+          "x": 45.2123,
+          "y": 6.51810265,
+          "z": 344.6334
+        }
+      },
+      {
+        "path": "BrittleHollow_Body/Sector_BH/Sector_EscapePodCrashSite/Sector_NorthFragment/Interactables_NorthFragment/VisibleFrom_EscapePodCrashSite/Prefab_NOM_Lamp_EscapePodFlare",
+        "position": {
+          "x": -6.277242,
+          "y": 9.999374,
+          "z": 1.40098763
+        },
+        "rotation": {
+          "x": 300.0,
+          "y": 15.000001,
+          "z": 129.0
+        }
+      },
+      {
+        "path": "BrittleHollow_Body/Sector_BH/Sector_EscapePodCrashSite/Sector_CrashFragment/Interactables_CrashFragment/Prefab_NOM_Recorder/Props_NOM_Recorder",
+        "position": {
+          "x": 1.38833189,
+          "y": 13.1952133,
+          "z": 1.80399323
+        },
+        "rotation": {
+          "x": 35.0225,
+          "y": 9.834498,
+          "z": 18.0527973
+        }
+      }
+    ],
+    "nomaiText": []
+  },
+  "ReferenceFrame": {
+    "bracketRadius": -1.0
+  },
+  "ShipLog": {
+    "mapMode": {}
+  }
+}

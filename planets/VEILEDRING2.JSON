@@ -1,16 +1,18 @@
 {
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
 	"name": "Ring 2",
+	"buildPriority": 10,
 	"starSystem": "Cryptic&Turtle.[ERROR_UnchartedCoordinates]:/CAUTION/",
 	"Base": {
 		"surfaceGravity": 1,
 		"surfaceSize": 1,
 		"hasMapMarker": false,
-		"hasAmbientLight": false
+		"invulnerableToSun": true
 	},
+	"canShowOnTitle": false,
 	"Orbit": {
 		"primaryBody": "Veiled Origin",
-		"semiMajorAxis": 0.1,
+		"semiMajorAxis": 0.001,
 		"isMoon": false,
 		"longitudeOfAscendingNode": 0,
 		"argumentOfPeriapsis": 0,
@@ -43,5 +45,10 @@
 				"alignToNormal": false
 			}
 		]
+		},
+		"ShipLog": {
+			"mapMode": {
+				"invisibleWhenHidden": true
+			}
 		}
 }
