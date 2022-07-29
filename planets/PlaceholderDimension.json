@@ -1,0 +1,23 @@
+{
+  "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+  "name": "PlaceholderDimension",
+  "canShowOnTitle": false,
+  "Orbit": {
+    "staticPosition": {
+      "x": 50000,
+      "y": 50000,
+      "z": 50000
+    }
+  },
+  "Bramble": {
+    "dimension": {
+      "fogTint": {
+        "r": 85,
+        "g": 82,
+        "b": 73,
+        "a": 255
+      },
+      "linksTo": "GatewayNode"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+  "name": "IntroDimension",
+  "canShowOnTitle": false,
+  "Orbit": {
+    "staticPosition": {
+      "x": 40000,
+      "y": 40000,
+      "z": 40000
+    }
+  },
+  "Bramble": {
+    "dimension": {
+      "fogTint": {
+        "r": 85,
+        "g": 82,
+        "b": 73,
+        "a": 150
+      },
+      "linksTo": "StrayNode1"
+    },
+    "nodes": [
+      {
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {},
+        "linksTo": "PlaceholderDimension",
+        "name": "GatewayNode",
+        "fogTint": {
+          "r": 85,
+          "g": 82,
+          "b": 73,
+          "a": 255
+        },
+        "lightTint": {
+          "r": 200,
+          "g": 200,
+          "b": 200,
+          "a": 255
+        },
+        "scale": 7
+      }
+    ]
+  }
+}

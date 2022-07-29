@@ -1,0 +1,36 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>NEEM: Asterid, is our warp to the Gloaming Galaxy all clear? We mustn't keep Canna waiting any longer!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>ASTERID: Negative. It pains me to say it, but a new inconvenience has arisen.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>NEEM: And it pains me to hear it, respectively! Were the triple suns not enough?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>ASTERID: They certainly were, Captain, but a foreign biomass (pollen, it seems) has encompassed our sensors and communication systems.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>NEEM: Hypothesis: this plume of pollen must possess truly peculiar properties, having penetrated our shields!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>ASTERID: I agree, but please show some restraint with your infatuation for alliteration. Regarding the topic at hand: I’ve sent Abies and Willow out to sample some of the pollen. We'll have a comprehensive analysis done soon.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<Text>NEEM: Fair enough, my fickle friend.</Text>
+	</TextBlock>
+</NomaiObject>

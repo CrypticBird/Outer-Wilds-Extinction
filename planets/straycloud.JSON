@@ -1,27 +1,28 @@
 {
-	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+  "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
   "Atmosphere": {
-    "fogDensity": 0.3,
-    "fogSize": 70.0,
+    "fogDensity": 1,
+    "fogSize": 600.0,
     "fogTint": {
       "r": 193,
       "g": 187,
       "b": 31,
       "a": 100
     },
-    "size": 70.0
+    "size": 600.0
   },
   "Base": {
     "hasMapMarker": true,
     "surfaceSize": 5.0,
-    "zeroGravityRadius": 20.0
+    "zeroGravityRadius": 20.0,
+    "ambientLight": 0
   },
   "canShowOnTitle": true,
   "name": "Stray Cloud",
   "Orbit": {
     "primaryBody": "SUN",
     "axialTilt": 70.0,
-    "siderealPeriod": 2.0,
+    "siderealPeriod": 20.0,
     "trackingOrbitLine": true,
     "semiMajorAxis": 30000.0,
     "inclination": 50.0,
@@ -31,46 +32,74 @@
   "Props": {
     "details": [
       {
-        "path": "TimberHearth_Body/Sector_TH/Sector_ImpactCrater/Interactables_ImpactCrater/ControlledByProxy_Structures/Terrain_DB_BrambleSphere_Seed_V2",
-        "position": {},
-        "rotation": {}
-      },
-      {
         "assetBundle": "planets/assets/crypticturtle.extiction",
         "path": "Assets/DLC/Pollen_Cloud.prefab",
         "position": {},
-        "rotation": {}
+        "rotation": {},
+        "scale": 8
       },
       {
-        "path": "TimberHearth_Body/Sector_TH/Sector_ImpactCrater/Interactables_ImpactCrater/ControlledByProxy_Structures/Terrain_DB_BrambleSphere_Seed_V2",
+        "path": "QuantumMoon_Body/Sector_QuantumMoon/State_DB/Interactables_DBState/DBState_QuantumObjects/DB_Q_Vine2/DB_Bramble_Vine2 (1)/State_1/Terrain_TH_Bramble_Vine2",
         "position": {
-          "x": 10.0006266,
-          "y": 9.99886,
-          "z": 4.999769
+          "x": 2.3227,
+          "y": 12.3658,
+          "z": 28.6299
         },
-        "removeChildren": [
-          "DB_SeedLightShafts"
-        ],
-        "rotation": {},
-        "scale": 0.5
+        "rotation": {
+          "x": 53.2825,
+          "y": 0,
+          "z": 0
+        },
+        "scale": 2
       },
       {
-        "assetBundle": "planets/assets/crypticturtle.extiction",
-        "path": "Assets/DLC/Pollen_Cloud.prefab",
+        "path": "QuantumMoon_Body/Sector_QuantumMoon/State_DB/Interactables_DBState/DBState_QuantumObjects/DB_Q_Vine2/DB_Bramble_Vine2 (3)/State_1/Terrain_TH_Bramble_Vine2",
         "position": {
-          "x": 10.0006266,
-          "y": 9.99886,
-          "z": 4.999769
+          "x": 16.2119,
+          "y": 24.889,
+          "z": -40.7079
         },
-        "rotation": {},
-        "scale": 0.7
+        "rotation": {
+          "x": 89.9604,
+          "y": 0,
+          "z": 0
+        },
+        "scale": 2
+      },
+      {
+        "path": "QuantumMoon_Body/Sector_QuantumMoon/State_DB/Interactables_DBState/DBState_QuantumObjects/DB_Q_Vine2/DB_Bramble_Vine2 (5)/State_1/Terrain_TH_Bramble_Vine2",
+        "position": {
+          "x": -29.4089,
+          "y": -17.7358,
+          "z": -2.9581
+        },
+        "rotation": {
+          "x": 355.9453,
+          "y": 8.8474,
+          "z": 11.3982
+        },
+        "scale": 2.1
+      },
+      {
+        "path": "QuantumMoon_Body/Sector_QuantumMoon/State_DB/Interactables_DBState/DBState_QuantumObjects/DB_Q_Vine2/DB_Bramble_Vine2 (9)/State_1/Terrain_TH_Bramble_Vine2",
+        "position": {
+          "x": 21.4628,   
+          "y": -55.6881,
+          "z": -11.0199
+        },
+        "rotation": {     
+          "x": 7.9365,
+          "y": 357.4492,
+          "z": 45.3437
+        },
+        "scale": 2
       },
       {
         "path": "BrittleHollow_Body/Sector_BH/Sector_EscapePodCrashSite/Sector_NorthFragment/Interactables_NorthFragment/VisibleFrom_EscapePodCrashSite/Prefab_NOM_Lamp_EscapePodFlare",
         "position": {
-          "x": 5.25158548,
-          "y": 10.3102665,
-          "z": -0.9352884
+          "x": 66.5293,
+          "y": 1.2157,
+          "z": 33.0157
         },
         "rotation": {
           "x": 45.2123,
@@ -81,31 +110,92 @@
       {
         "path": "BrittleHollow_Body/Sector_BH/Sector_EscapePodCrashSite/Sector_NorthFragment/Interactables_NorthFragment/VisibleFrom_EscapePodCrashSite/Prefab_NOM_Lamp_EscapePodFlare",
         "position": {
-          "x": -6.277242,
-          "y": 9.999374,
-          "z": 1.40098763
+          "x": 79.3638,
+          "y": -0.5625,
+          "z": 44.5447
         },
         "rotation": {
           "x": 300.0,
-          "y": 15.000001,
+          "y": 15.0,
           "z": 129.0
-        }
-      },
-      {
-        "path": "BrittleHollow_Body/Sector_BH/Sector_EscapePodCrashSite/Sector_CrashFragment/Interactables_CrashFragment/Prefab_NOM_Recorder/Props_NOM_Recorder",
-        "position": {
-          "x": 1.38833189,
-          "y": 13.1952133,
-          "z": 1.80399323
-        },
-        "rotation": {
-          "x": 35.0225,
-          "y": 9.834498,
-          "z": 18.0527973
         }
       }
     ],
-    "nomaiText": []
+    "nomaiText": [
+      {
+        "position": {
+          "x": 63.0636,
+          "y": 6.8121,
+          "z": 44.5447
+        },
+        "rotation": {
+          "x": 35.0225,
+          "y": 9.8345,
+          "z": 18.0528
+        },
+        "type": "preCrashRecorder",
+        "xmlFile": "planets/text/Stray Recorder A.xml"
+      }
+    ]
+  },
+  "Bramble": {
+    "nodes": [
+      {
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 65.2428,
+          "y": -137.305,
+          "z": 198.1078
+        },
+        "linksTo": "IntroDimension",
+        "name": "StrayNode1",
+        "fogTint": {
+          "r": 200,
+          "g": 200,
+          "b": 200,
+          "a": 255
+        },
+        "lightTint": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 100
+        },
+        "isSeed": false,
+        "scale": 0.52
+      },
+      {
+        "position": {
+          "x": 1.2901,
+          "y": 64.5401,
+          "z": 86.1266
+        },
+        "rotation": {
+          "x": 357.661,
+          "y": 4.1383,
+          "z": 57.6523
+        },
+        "linksTo": "IntroDimension",   
+        "name": "StrayNode2",
+        "fogTint": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 100
+        },
+        "lightTint": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 100
+        },
+        "isSeed": true
+      }
+    ]
   },
   "ReferenceFrame": {
     "bracketRadius": -1.0
